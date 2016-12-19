@@ -1,5 +1,4 @@
 img {
-	background-color: red;
 	width: 100%;
 }
 
@@ -37,4 +36,11 @@ body {
 #pics img {
     height: 400px;
 
+}
+
+#text {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: lightgray;
 }
