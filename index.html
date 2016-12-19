@@ -4,6 +4,7 @@
     <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet"/>
     <link href="css/layouts/styles.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="lib/Hover-master/css/hover.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -28,7 +29,20 @@
     </div>
 
 </nav>
-<div class="container">
+<div id="pics" class="container">
+    <div class="row">
+        <div class="col-md-4 hvr-sweep-to-right">
+            <img src="img/bier1.png">
+        </div>
+        <div class="col-md-4">
+            <img src="img/bier2.jpg">
+        </div>
+        <div class="col-md-4">
+            <img src="img/bier3.png">
+        </div>
+    </div>
+</div>
+<div id="form" class="container">
     <div class="row">
         <div class="col-md-8"></div>
         <div class="col-md-4">
@@ -42,7 +56,7 @@
                     <label for="pwd">Password:</label>
                     <input type="password" class="form-control" id="pwd">
                 </div>
-                <button type="submit" class="btn btn-default">txt me!</button>
+                <button type="submit" class="btn btn-default hvr-pulse-shrink">txt me!</button>
             </form>
         </div>
     </div>
