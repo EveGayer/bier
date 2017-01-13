@@ -55,7 +55,7 @@ script {
     min-height: 500px;
 }
 
-.jumbotron > .container1 > .Karte {
+ .Karte {
     width: 400px;
     font-size: 2em;
     margin-top: 10px;
