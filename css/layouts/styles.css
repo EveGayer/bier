@@ -44,3 +44,21 @@ body {
     margin-bottom: 50px;
     background-color: lightgray;
 }
+
+script {
+    align-content: center;
+}
+
+.jumbotron > .container1 {
+    background-size: cover;
+    background-position-y: -200px;
+    min-height: 500px;
+}
+
+.jumbotron > .container1 > .Karte {
+    width: 400px;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    padding: 10px;
+}
